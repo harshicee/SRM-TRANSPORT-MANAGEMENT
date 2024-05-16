@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRM Transport Management System</title>
+    <style>
+        /* Common CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header, .header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav, .nav {
+            background-color: #555;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a, .nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover, .nav a:hover {
+            text-decoration: underline;
+        }
+
+        main, .main {
+            padding: 20px;
+        }
+
+        footer, .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Additional CSS styles for enhanced attractiveness */
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 20px;
+            width: 300px;
+        }
+
+        .card img {
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        .login-form {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 300px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .login-form input[type="text"],
+        .login-form input[type="password"],
+        .login-form input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+        .card a {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            text-decoration: none;
+            background-color: #007bff;
+            color: #fff;
+            padding: 8px 0;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .card a:hover {
+            background-color: #0056b3;
+        }
+
+        .login-form input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+
+        .virtual-tour-box {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+            text-align: center;
+            width: fit-content;
+            margin: 0 auto;
+        }
+
+        .virtual-tour-box a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .virtual-tour-box a:hover {
+            text-decoration: underline;
+        }
+        /* Route image styling */
+        .route-image {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        /* Address section styling */
+        .address-section {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        /* Contact section styling */
+        .contact-section {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        /* Social media icons */
+        .social-media-icons {
+            margin-top: 20px;
+        }
+
+        .social-media-icons img {
+            width: 30px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>SRM Transport Management System</h1>
+</header>
+<div class="login-form">
+    <form action="#" method="post">
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="submit" value="Login">
+    </form>
+    <p style="color: black;">Don't have an account? <a href="#">Sign Up</a></p>
+</div>
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">About Us</a>
+    <a href="#">Contact</a>
+</nav>
+<main class="main">
+    <h2>Welcome to the SRM Transport Management System</h2>
+    <p>Our transport management system is designed to make it easy for you to book transportation to and from SRM University. With our system, you can view available routes and schedules, book your transportation in advance, and make payments online.</p>
+    <div class="content">
+        <div class="card">
+            <img class="route-image" src="https://zenduwork.com/wp-content/uploads/2022/06/routing-pointa-ppointb.png" alt="Route 1">
+            <h3>Route 1</h3>
+            <p>Route 1 is a popular route that connects the airport to the university. It runs every hour from 6:00 AM to 10:00 PM.</p>
+            <a href="https://webstor.srmist.edu.in/web_assets/downloads/2023/cet-bus-route-2023.pdf" target="_blank">Download Route PDF</a>
+        </div>
+        <div class="card">
+            <img class="route-image" src="https://soundgirls.org/wp-content/uploads/2019/06/1441912288.jpeg" alt="Route 2">
+            <h3>Route 2</h3>
+            <p>Route 2 is a scenic route that connects the university to the beach. It runs every two hours from 8:00 AM to 6:00 PM.</p>
+            <a href="https://webstor.srmist.edu.in/web_assets/downloads/2023/fsh-bus-route-2023.pdf" target="_blank">Download Route PDF</a>
+        </div>
+        <div class="card">
+            <img class="route-image" src="https://www.kindpng.com/picc/m/102-1023856_winding-road-transparent-cartoons-winding-road-hd-png.png" alt="Route 3">
+            <h3>Route 3</h3>
+            <p>Route 3 is a convenient route that connects the university to the city center. It runs every 30 minutes from 7:00 AM to 9:00 PM.</p>
+            <a href="https://webstor.srmist.edu.in/web_assets/downloads/2023/mhs-bus-route-2023.pdf" target="_blank">Download Route PDF</a>
+        </div>
+    </div>
+    <h3>Bookings</h3>
+    <p>Booking transportation is easy with our system. Simply select your desired route and schedule, enter your passenger information, and make a payment. You will receive a confirmation email with your booking details.</p>
+    <h3>Payment</h3>
+    <p>Payments can be made online using a variety of payment methods, including credit card, debit card, and net banking. We use secure payment gateways to ensure that your payment information is protected.</p>
+    <h3>Address</h3>
+    <p>SRM Nagar, Kattankulathur - 603 203, Chengalpattu District, Tamil Nadu.</p>
+    <div class="contact-section">
+        <p>Call Us At</p>
+        <p>T: +91-44- 27417000, +91-44-27417777</p>
+        <p>Information Center For Admissions</p>
+        <p>M: 080 6908 7000 | E: infodesk@srmist.edu.in</p>
+         <div class="virtual-tour-box">
+            <a href="https://webstor.srmist.edu.in/web_assets/srmist-virtual-tour-vo/index.htm" target="_blank">Virtual Tour</a>
+    </div>
+    </div>
+</main>
+<footer class="footer">
+    <div class="social-media-icons">
+        <a href="https://www.facebook.com/SRMUniversityOfficial"><img src="https://static.vecteezy.com/system/resources/previews/023/986/613/non_2x/facebook-logo-facebook-logo-transparent-facebook-icon-transparent-free-free-png.png" alt="Facebook"></a>
+        <a href="https://twitter.com/SRM_Univ"><img src="https://cdn.freebiesupply.com/logos/large/2x/twitter-3-logo-png-transparent.png" alt="Twitter"></a>
+        <a href="https://www.linkedin.com/company/srm-ist-chennai/"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" alt="LinkedIn"></a>
+        <a href="https://www.instagram.com/SRMUniversityOfficial/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" alt="Instagram"></a>
+        <a href="https://www.youtube.com/user/SRMeducation"><img src="https://static.vecteezy.com/system/resources/previews/023/986/704/non_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png" alt="Youtube"></a>
+    </div>
+    <p>© 2024 SRM Transport Management System. All rights reserved.</p>
+</footer>
+</body>
+</html>
+
+
